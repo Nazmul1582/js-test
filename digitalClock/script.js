@@ -17,6 +17,7 @@ const showTime = () => {
     h = "0" + h;
   } else if (h > 12) {
     h = h - 12;
+    h = "0" + h;
     setAmPm = "PM";
   } else {
     h;
