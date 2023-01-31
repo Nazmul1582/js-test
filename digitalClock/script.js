@@ -10,7 +10,7 @@ const showTime = () => {
   let h = date.getHours();
   let m = date.getMinutes();
   let s = date.getSeconds();
-  let setAmPm = "am";
+  let setAmPm = "AM";
 
   // hours
   if (h < 10) {
